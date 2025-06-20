@@ -41,7 +41,7 @@
 
 | Model | Features used | Train R² | Test R² | Train RMSE | Test RMSE |
 |-------|---------------|:-------:|:------:|-----------:|----------:|
-| Linear Reg. | `area_sqm`, `commence_date` | 0.481 | 0.475 | \$80 778 | \$81 119 |
+| Linear Reg. | `area_sqm`, `commence_date` | 0.481 | 0.475 | 80 778 | 81 119 |
 | Linear Reg. | **All** | 0.685 | 0.679 | 62 960 | 63 784 |
 | Decision Tree | **All** | **0.999** | 0.895 | **2 262** | 36 315 |
 | CatBoost | **All** | 0.987 | **0.979** | 12 832 | **16 214** |
